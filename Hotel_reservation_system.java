@@ -7,7 +7,7 @@ import java.util.Scanner;
 class Room {
 
     private int roomNumber;
-    private String roomType; // e.g., Standard, Deluxe, Suite
+    private String roomType;
     private double price;
     private boolean isAvailable;
 
@@ -15,7 +15,7 @@ class Room {
         this.roomNumber = roomNumber;
         this.roomType = roomType;
         this.price = price;
-        this.isAvailable = true; // Room is available by default
+        this.isAvailable = true;
     }
 
     public boolean isAvailable() {
